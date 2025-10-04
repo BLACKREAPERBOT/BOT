@@ -1,0 +1,37 @@
+{
+  "discord": {
+    "slashCommandsEnabled": true,
+    "endStreamCommand": "!endstream"
+  },
+  "twitch": {
+    "trackChat": true,
+    "trackLurkers": true,
+    "trackSubscriptions": true,
+    "trackBits": true,
+    "trackRaids": true
+  },
+  "xp": {
+    "chatMinute": 1,
+    "lurkerMinute": 0.25,
+    "message": 1,
+    "subscription": 50,
+    "bit": 0.1,
+    "raidBonusBase": 50,
+    "raidBonusPerViewer": 2
+  },
+  "timers": {
+    "checkIntervalMs": 60000
+  },
+  "commands": {
+    "twitch": {
+      "xp": true,
+      "leaderboard": true,
+      "hello": true
+    },
+    "discord": {
+      "xp": true,
+      "leaderboard": true,
+      "boost": true
+    }
+  }
+}
